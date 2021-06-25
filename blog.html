@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harvard university's website-Anwesha Pal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/983b6955c7.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/har1.png"></a>
+            <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>   
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<h1>Our Certificate & online programs for 2021</h1>
+    </section>
+<!---blog-->
+<section class="blog-con">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/lib5.jpg">
+            <h1>Our Certificate & online programs for 2021</h1>
+            <p>CS50's Introduction to Game Development
+                Learn about the development of 2D and 3D interactive games in this hands-on course, as you explore the design of games such as Super Mario Bros., Pokémon, Angry Birds, and more.</p>
+            <br>
+            <p>CS50's Introduction to Artificial Intelligence with Python
+                Learn to use machine learning in Python in this introductory course on artificial intelligence.</p>
+            <br>
+            <p>Principles of Critical Care Medicine for Non-Intensive Care Specialists
+                Providing core clinical critical-care skills to health care providers who are not trained as intensivists but whose clinical duties involve taking care of critically ill patients.</p>
+
+         <div class="comment-box">
+             <h3>Leave a comment</h3>
+             <form class="comment-form">
+                 <input type="text" placeholder="Enter your name">
+                 <input type="email" placeholder="Enter E-mail">
+                 <textarea rows="5" placeholder="Enter your comment"></textarea>
+                 <button type="Submit" class="hero-btn red-btn">POST COMMENT</button>
+             </form>
+         </div>
+
+
+
+
+
+
+
+
+
+        </div>
+        <div class="blog-right">
+            <h2>Post Categories</h2>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>24</span>
+            </div>
+
+            <div>
+                <span>Data Science</span>
+                <span>12</span>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+
+<!---footer-->
+<section class="footer">
+    <h4>ABOUT US</h4>
+     <p>Harvard is at the frontier of academic and intellectual discovery. Those who venture here—to learn, research, teach, work, and grow—join nearly four centuries of students and scholars in the pursuit of truth, knowledge, and a better world.</p>
+     <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-linkdin"></i>
+        <i class="fab fa-instagram"></i>
+     </div>
+    <p>Made With <i class="fa fa-heart-o"></i> by Anwesha Pal 
+        <img src="images/ap9.jpg">
+    </p>
+</section>
+<!---java script-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+function showMenu(){
+    navLinks.style.right="0";
+}
+function hideMenu(){
+    navLinks.style.right="-200px";
+}
+</script>
+</body>
+</html>

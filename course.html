@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harvard university's website-Anwesha Pal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap"
+        rel="stylesheet">
+    
+
+        <script src="https://kit.fontawesome.com/983b6955c7.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/har1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>OUR COURSES</h1>
+    </section>
+    <!-----course-->
+    <section class="course">
+        <h1>Courses we offer</h1>
+        <p>Harvard University is a private Ivy League research university in Cambridge, Massachusetts. Established in
+            1636 and named for its first benefactor, clergyman John Harvard, Harvard is the oldest institution of higher
+            learning in the United States and among the most prestigious in the world. Wikipedia</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermidiate</h3>
+                <p>
+                    This intermediate statistics course is intended to give students familiarity with statistical tools
+                    used to analyze data in a variety of disciplines, including psychology, and provides experience
+                    reading and understanding studies based on data analysis
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>degree</h3>
+                <p>
+                    At the Harvard Graduate School of Education, two distinct doctoral programs leverage the
+                    extraordinary interdisciplinary strengths of the entire university.In collaboration with five
+                    Harvard University graduate schools, HBS offers six joint degree programs to prepare individuals for
+                    complex leadership challenges.
+
+                </p>
+            </div>
+
+            <div class="course-col">
+                <h3>Post-graduation</h3>
+                <p>
+                    They are unsolicited, and posted for your convenience. Date Posted, Post Graduate Positions. June
+                    21, 2021, Research Associate position at Temple University's.nd S.J.D. programs expose students to
+                    American modes of legal education ( which emphasize critical thinking and self-inquiry) as well as
+                    to substantive law, and ...
+
+                </p>
+            </div>
+        </div>
+    </section>
+    <!---facilities-->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>-->
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/lib1.jpg">
+                <h1>Worls Class library</h1>
+                <p>The Harvard Library system is centered in Widener Library in Harvard Yard and comprises nearly 80
+                    individual libraries holding about 20.4 million items.[14][15][17] According to the American Library
+                    Association, this makes it the largest academic library in the world.[15][4]
+
+                    Houghton Library, the Arthur and Elizabeth Schlesinger Library on the History of Women in America,
+                    and the Harvard University Archives consist principally of rare and unique materials. </p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/lib2.jpg">
+                <h1>Cultural Progrrams</h1>
+                <p>Outings & Innings is a cultural and recreational/leisure program for Harvard faculty, staff and
+                    retirees. Postdoctoral fellows who are eligible for a benefits package may use the service as well.
+                    The tickets for various events are often sold at a discount and a transaction fee is not charged</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/lib5.png">
+                <h1>Playground</h1>
+                <p>“It is very unstructured, and we allow the children to explore however they see fit. It truly
+                    promotes a sense of independence and autonomy for our children.”
+                    — Nicole Lowery, Learn to Grow</p>
+            </div>
+        </div>
+    </section>
+    <!---footer-->
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>Harvard is at the frontier of academic and intellectual discovery. Those who venture here—to learn, research,
+            teach, work, and grow—join nearly four centuries of students and scholars in the pursuit of truth,
+            knowledge, and a better world.</p>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkdin"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+        <p>Made With <i class="fa fa-heart-o"></i> by Anwesha Pal
+            <img src="images/ap9.jpg">
+        </p>
+    </section>
+    <!---java script-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

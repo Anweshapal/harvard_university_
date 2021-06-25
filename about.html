@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harvard university's website-Anwesha Pal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+<!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">-->
+
+<script src="https://kit.fontawesome.com/983b6955c7.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/har1.png"></a>
+            <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>   
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<h1>ABOUT US</h1>
+    </section>
+<!---abous us content-->
+<section class="about-us">
+     <div class="row">
+         <div class="about-col">
+           <h1>World's largest university</h1>
+           <p>Among overall rankings, the Academic Ranking of World Universities (ARWU) has ranked Harvard as the world's top university every year since it was released.[95] When QS and Times Higher Education collaborated to publish the Times Higher Education–QS World University Rankings from 2004 to 2009, Harvard held the top spot every year and continued to hold first place on THE World Reputation Rankings ever since it was released in 2011.[96] In 2019, it was ranked first worldwide by SCImago Institutions Rankings.[97] Harvard University is accredited by the New England Commission of Higher Education.[98]
+
+            Among rankings of specific indicators, Harvard topped both the University Ranking by Academic Performance (2019–2020) and Mines ParisTech: Professional Ranking of World Universities (2011), which measured universities' numbers of alumni holding CEO positions in Fortune Global 500 companies.[99] According to annual polls done by The Princeton Review, Harvard is consistently among the top two most commonly named "dream colleges" in the United States, both for students and parents.[100][101][102] Additionally, having made significant investments in its engineering school in recent years, Harvard was ranked third worldwide for Engineering and Technology in 2019 by Times Higher Education</p>
+           <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+         </div>
+         <div class="about-col">
+             <img src="images/ab1.jpg">
+        </div>
+
+     </div>
+</section>
+
+
+
+
+
+<!---footer-->
+<section class="footer">
+    <h4>ABOUT US</h4>
+     <p>Harvard is at the frontier of academic and intellectual discovery. Those who venture here—to learn, research, teach, work, and grow—join nearly four centuries of students and scholars in the pursuit of truth, knowledge, and a better world.</p>
+     <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-linkdin"></i>
+        <i class="fab fa-instagram"></i>
+     </div>
+    <p>Made With <i class="fa fa-heart-o"></i> by Anwesha Pal
+      <img src="images/ap9.jpg">
+     </p>
+</section>
+<!---java script-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+function showMenu(){
+    navLinks.style.right="0";
+}
+function hideMenu(){
+    navLinks.style.right="-200px";
+}
+</script>
+</body>
+</html>
